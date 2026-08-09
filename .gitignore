@@ -1,0 +1,9 @@
+
+git rm --cached \
+  chapter0_fundamentals/part0_prereqs/pytorch-basics/model.pth \
+  chapter0_fundamentals/part0_prereqs/pytorch-basics/model_weights.pth
+git add .gitignore
+git status
+
+# Generated PyTorch model checkpoints
+chapter0_fundamentals/part0_prereqs/pytorch-basics/*.pth
